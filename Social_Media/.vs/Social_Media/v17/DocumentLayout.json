@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Program.cs",
+              "RelativeDocumentMoniker": "Social_Media\\Program.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Program.cs",
+              "RelativeToolTip": "Social_Media\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T17:01:47.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Social_Media\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Social_Media\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:45:44.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Social_Media\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\AppUser.cs",
+              "RelativeToolTip": "Social_Media\\Models\\AppUser.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:10:59.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\appsettings.json",
+              "RelativeDocumentMoniker": "Social_Media\\appsettings.json",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\appsettings.json",
+              "RelativeToolTip": "Social_Media\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T21:33:19.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
