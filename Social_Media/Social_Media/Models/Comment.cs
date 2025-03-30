@@ -9,7 +9,7 @@ namespace Social_Media.Models
     public class Comment
     {
 
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public Guid  UserId { get; set; }
         [ForeignKey(nameof(UserId))]

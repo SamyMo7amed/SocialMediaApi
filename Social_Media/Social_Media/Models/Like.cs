@@ -16,7 +16,7 @@ namespace Social_Media.Models
     {
 
 
-        public int Id { get; set; } 
+        public Guid Id { get; set; } 
 
         public int PostId { get; set; }
         [ForeignKey(nameof(PostId))]    

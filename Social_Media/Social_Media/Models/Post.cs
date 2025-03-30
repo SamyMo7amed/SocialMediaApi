@@ -13,7 +13,7 @@ namespace Social_Media.Models
 
     public class Post
     {
-        public int Id { get; set; } 
+        public Guid Id { get; set; } 
        
         public string Content { get; set; } 
 
