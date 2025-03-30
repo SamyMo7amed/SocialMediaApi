@@ -12,7 +12,7 @@ namespace Social_Media.Models
     {
         Like, Love ,Angry, Happy
     }
-    public class Like
+    public class Like 
     {
 
 
