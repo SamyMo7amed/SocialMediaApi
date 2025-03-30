@@ -31,6 +31,7 @@ namespace Social_Media.Models
         public bool IsEmailConfirmed { get; set; }  
 
         [MinLength(8)]
+       
         public string Password { get; set; }
         [Compare("Password")]   
         public string ConfirmPassword { get; set; }
@@ -44,14 +45,14 @@ namespace Social_Media.Models
         public GenderValue Gender { get; set; }
 
 
-        [DataType(DataType.Date)]
+       
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime BirthDate { get; set; }
 
 
 
 
-        [DataType(DataType.Date)]
+     
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CreatedAt { get; set; }
 

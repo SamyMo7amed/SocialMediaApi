@@ -17,15 +17,17 @@ namespace Social_Media.Models
        
         public string Content { get; set; } 
 
-         [ForeignKey("User")]
+         
+             [ForeignKey("UserId")]
         public AppUser User { get; set; }
+
 
        
         public Guid UserId { get; set; }
         [DataType(DataType.Date)]
 
-        public byte[] post { get; set; }
+        public byte[]? post { get; set; }
         public DateTime CreatedDate { get; set; }   
-        public Privacy Privacy { get; set; }    
+        public Privacy Privacy { get; set; }       
     }
 }
