@@ -64,6 +64,11 @@ namespace Social_Media.Models
         
         public List<Comment>? Comments { get; set; } 
         public List<Like>? Likes { get; set; }
+        public List<Message>? SentMessages { get; set; }    
+        public List<Message>? ReceiveMessages {  get; set; }    
+        public List<Notification>? Notifications { get; set; }
+        public List<Friendship>? FriendshipsInitiated { get; set; } 
+        public List<Friendship>? FriendshipsReceived { get; set; }
 
 
 

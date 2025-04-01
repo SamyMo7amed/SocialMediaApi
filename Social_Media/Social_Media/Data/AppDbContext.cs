@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Social_Media.Models;
 
@@ -21,9 +22,27 @@ namespace Social_Media.Data
            builder.Entity<Comment>().HasOne(p=>p.User).WithMany(x=>x.Comments).HasForeignKey(x=>x.UserId);  
            builder.Entity<Comment>().HasOne(x=>x.Post).WithMany(x=>x.Comments).HasForeignKey(x=>x.PostId).OnDelete(DeleteBehavior.Restrict);
            builder.Entity<Like>().HasOne(p => p.User).WithMany(x => x.Likes).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
-          builder.Entity<Like>().HasOne(p=>p.Comment).WithMany(x=>x.likes).HasForeignKey(x=>x.CommentId).OnDelete(DeleteBehavior.Restrict); 
+          builder.Entity<Like>().HasOne(p=>p.Comment).WithMany(x=>x.likes).HasForeignKey(x=>x.CommentId).OnDelete(DeleteBehavior.Restrict);
+            builder.Entity<Notification>().HasOne(p => p.AppUser).WithMany(x => x.Notifications).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
+            builder.Entity<Message>().HasOne(x=>x.SenderUser).WithMany(x=>x.SentMessages).HasForeignKey(x=>x.SenderId).OnDelete(DeleteBehavior.Restrict);       
+            builder.Entity<Message>().HasOne(x=>x.ReceiverUser).WithMany(x=>x.ReceiveMessages).HasForeignKey(x=>x.ReceiverId).OnDelete(DeleteBehavior.Restrict);
+            builder.Entity<Friendship>()
+            .HasKey(f => new { f.UserId1, f.UserId2 });
+            builder.Entity<Friendship>()
+        .HasOne(f => f.User1)
+        .WithMany(u => u.FriendshipsInitiated)
+        .HasForeignKey(f => f.UserId1)
+        .OnDelete(DeleteBehavior.Restrict);
 
-           
+            builder.Entity<Friendship>()
+        .HasOne(f => f.User2)
+        .WithMany(u => u.FriendshipsReceived)
+        .HasForeignKey(f => f.UserId2)
+        .OnDelete(DeleteBehavior.Restrict);
+
+
+        
+
         }
 
 

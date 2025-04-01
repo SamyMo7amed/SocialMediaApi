@@ -26,7 +26,8 @@ namespace Social_Media.Models
          public Status status { get; set; } 
 
 
-        public DateTime CreatedAT { get; set; } 
+        public DateTime CreatedAT { get; set; }
 
+       
     }
 }
