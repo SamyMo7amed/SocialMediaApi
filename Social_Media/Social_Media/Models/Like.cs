@@ -28,6 +28,10 @@ namespace Social_Media.Models
          
         public Guid UserId { get; set; }
 
+        public Comment Comment { get; set; }
+
+        public Guid CommentId { get; set; }
+
         public LikesType LikeType { get; set; } 
         public DateTime CreatedAt { get; set; }
 

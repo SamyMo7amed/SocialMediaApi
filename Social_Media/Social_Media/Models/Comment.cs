@@ -26,6 +26,8 @@ namespace Social_Media.Models
 
         public DateTime CreatedAt { get; set; }
 
+        // Properties  that help in RelationShips
+        public List<Like>? likes { get; set; }
 
     }
 }

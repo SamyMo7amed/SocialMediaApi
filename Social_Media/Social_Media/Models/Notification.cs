@@ -11,11 +11,6 @@ namespace Social_Media.Models
 
 
 
-
-//IsRead(BOOLEAN, DEFAULT FALSE)
-//CreatedAt(DATETIME)
-
-
         public Guid Id { get; set; } 
         public Guid UserId { get; set; }
         [ForeignKey("UserId")]  

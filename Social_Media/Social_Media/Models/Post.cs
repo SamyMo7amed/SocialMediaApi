@@ -28,6 +28,12 @@ namespace Social_Media.Models
 
         public byte[]? post { get; set; }
         public DateTime CreatedDate { get; set; }   
-        public Privacy Privacy { get; set; }       
+        public Privacy Privacy { get; set; }
+
+
+
+
+        // Properties  that help in RelationShips
+        public List<Comment>? Comments { get; set; } 
     }
 }

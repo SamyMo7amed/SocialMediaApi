@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|c:\\users\\loq\\desktop\\social_media\\social_media\\social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D1EA3FF-33F3-4690-9E88-143930C95F60}|Social_Media\\Social_Media.csproj|solutionrelative:social_media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,101 +50,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Notification.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Notification.cs",
               "RelativeToolTip": "Social_Media\\Models\\Notification.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T17:56:50.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Message.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Message.cs",
               "RelativeToolTip": "Social_Media\\Models\\Message.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T17:42:49.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Friendship.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Friendship.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Friendship.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Friendship.cs",
               "RelativeToolTip": "Social_Media\\Models\\Friendship.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T17:33:12.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\AppUser.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\AppUser.cs",
               "RelativeToolTip": "Social_Media\\Models\\AppUser.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAA0wEEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:28:10.748Z"
+              "WhenOpened": "2025-03-30T09:28:10.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Like.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Like.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Like.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Like.cs",
               "RelativeToolTip": "Social_Media\\Models\\Like.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:22:06.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Comment.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Comment.cs",
               "RelativeToolTip": "Social_Media\\Models\\Comment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:08:43.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Post.cs",
               "RelativeDocumentMoniker": "Social_Media\\Models\\Post.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Models\\Post.cs",
               "RelativeToolTip": "Social_Media\\Models\\Post.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T13:55:05.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Program.cs",
               "RelativeDocumentMoniker": "Social_Media\\Program.cs",
@@ -156,19 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Social_Media\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Social_Media\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T16:45:44.491Z"
+              "WhenOpened": "2025-03-28T16:45:44.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\social_media\\Social_Media\\Social_Media\\appsettings.json",
               "RelativeDocumentMoniker": "Social_Media\\appsettings.json",
@@ -176,7 +178,8 @@
               "RelativeToolTip": "Social_Media\\appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T21:33:19.892Z"
+              "WhenOpened": "2025-03-26T21:33:19.892Z",
+              "EditorCaption": ""
             }
           ]
         }

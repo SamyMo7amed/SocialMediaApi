@@ -58,8 +58,18 @@ namespace Social_Media.Models
 
 
 
+        // Properties  that help in RelationShips
 
-       
+        public List<Post>? Posts { get; set; }  
+        
+        public List<Comment>? Comments { get; set; } 
+        public List<Like>? Likes { get; set; }
+
+
+
+
+
+
 
 
     }
