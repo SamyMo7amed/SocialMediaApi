@@ -9,25 +9,18 @@ namespace Social_Media.Models
     public class Comment
     {
 
-        public Guid Id { get; set; }
-
-        public Guid  UserId { get; set; }
-        [ForeignKey(nameof(UserId))]
-        public AppUser User { get; set; }
-        [ForeignKey(nameof(PostId))]
-        public Post Post { get; set; }  
-         
-        public int PostId { get; set; }
-
+        public int Id { get; set; }
         [MaxLength(200)]
         public string Content { get; set; }
-
-
-
         public DateTime CreatedAt { get; set; }
-
+        [ForeignKey("User")]
+        public string  UserId { get; set; }
+        [ForeignKey("Post")]         
+        public int PostId { get; set; }
         // Properties  that help in RelationShips
-        public List<Like>? likes { get; set; }
+        public virtual Post? Post { get; set; }  
+        public virtual ApplicationUser? User { get; set; }
+        public virtual List<Interaction>? likes { get; set; }
 
     }
 }

@@ -5,23 +5,17 @@ namespace Social_Media.Models
 {
 
 
-    public enum TypeNotification { Like, Comment, FriendRequest, Message }
+    public enum TypeNotification { Interaction, Comment, FriendRequest, Message }
     public class Notification
     {
-
-
-
-        public Guid Id { get; set; } 
-        public Guid UserId { get; set; }
-        [ForeignKey("UserId")]  
-        public AppUser AppUser { get; set; }    
-
-        public Guid ReferenceId { get; set; }   // if it PostID or message or Comment
-
+        public int Id { get; set; } 
+        [ForeignKey("User")]  
+        public string UserId { get; set; }
         public bool IsRead { get; set; } = false;
 
-        public      DateTime Created { get; set; }    
+        public DateTime Created { get; set; } =  DateTime.Now;
 
+        public virtual ApplicationUser? User { get; set; }    
 
     }
 }
