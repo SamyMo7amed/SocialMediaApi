@@ -27,11 +27,11 @@ builder.Services.AddAuthentication(
             ValidIssuer = builder.Configuration["Jwt:issuer"],
             ValidAudience = builder.Configuration["Jwt:audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecertKey"]!)),
-            ClockSkew = TimeSpan.Zero
+             ClockSkew = TimeSpan.Zero
         };
     }
     );
-builder.Services.AddCors(
+builder.Services.AddCors(//
                     Option =>
                     {
                         Option.AddPolicy("MyCORS", Policy =>
@@ -59,7 +59,7 @@ builder.Services.AddIdentity<ApplicationUser,IdentityRole>(
     }
     )
     .AddEntityFrameworkStores<ContextData>()
-    .AddDefaultTokenProviders();
+    .AddDefaultTokenProviders();//
 
 builder.Services.DependencyInjection();
 
